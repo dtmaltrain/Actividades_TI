@@ -8,7 +8,7 @@ def read_root():
 
 @app.get("/status", status_code=204)
 def read_root():
-    return {"Hello": "World"}
+    return 
 
 @app.get('/info')
 def read_root():
@@ -16,4 +16,4 @@ def read_root():
 
 @app.delete('/security', status_code=401)
 def read_root():
-    return {'datom' : 'api'}
+    return 
