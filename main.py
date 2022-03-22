@@ -6,7 +6,7 @@ app = FastAPI()
 def read_root():
     return {'datom', 'api'}
 
-@app.get("/status", status_code=204)
+@app.get('/status', status_code=204)
 def read_root():
     return 
 
